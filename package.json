@@ -1,0 +1,16 @@
+{
+    "name": "Practice_Vue",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/noobnur/practice-vue.git",
+    "author": "dayah",
+    "license": "",
+    "description": "Practice_Vue",
+    "scripts": {
+      "start": "nodemon"
+    },
+    "dependencies": {
+       "nodemon": "^1.12.1"
+    }
+  }
+  

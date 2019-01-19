@@ -5,11 +5,14 @@ new Vue({
     }
   })
 
-  Vue.component('button-counter', {
-    data: function () {
-      return {
-        count: 0
-      }
+  var app5 = new Vue({
+    el: '#app-5',
+    data: {
+      message: 'Hello Vue.js!'
     },
-    template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
+    methods: {
+      reverseMessage: function () {
+        this.message = this.message.split('').reverse().join('')
+      }
+    }
   })

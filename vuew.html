@@ -2,6 +2,7 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -10,16 +11,16 @@
   <meta name="author" content="Dayah">
   <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
 </head>
+
 <body>
-    <div id="app">
-        <p>{{ message }}</p>
-      </div>
 
-      <div id="components-demo">
-          <button-counter></button-counter>
-        </div>
+  <div id="app-5">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
+  </div>
 
-  
-  <script src="/js/index.js"></script>
+
+  <script src="js/index.js"></script>
 </body>
+
 </html>
